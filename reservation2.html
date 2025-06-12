@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Tourisme</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="Patrimoine.html">Patrimoine</a></li>
+                <li><a href="reservation2.html">Réservation d'hôtel</a></li>
+                <li><a href="Galerie.html">Galerie</a></li>
+            </ul>
+        </nav>
+        <h1>Réserver un hôtel à Banfora</h1>
+        <form class="formulaire">
+            <label>Nom :</label>
+            <input type="text" name="nom" required><br>
+
+            <label>Prénom :</label>
+            <input type="text" name="prenom" required><br>
+
+            <label>Email :</label>
+            <input type="email" name="email" required><br>
+
+            <label>Téléphone :</label>
+            <input type="tel" name="telephone" required><br>
+
+            <label>Date d'arrivée :</label>
+            <input type="date" name="arrivee" required><br>
+
+            <label>Date de départ :</label>
+            <input type="date" name="depart" required><br>
+
+            <label>Nombre de personnes :</label>
+            <input type="number" name="personnes" min="1" max="10" required><br>
+
+            <label>Type de chambre :</label>
+            <select name="chambre" required>
+                <option value="">--Choisissez--</option>
+                <option value="simple">Simple</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select><br>
+
+           <label>Demandes particulières :</label>
+           <textarea name="demande" rows="4"></textarea>
+
+           <button type="submit">Réserver</button>
+        </form>
+        <footer>
+        <p>&copy; 2025 Ville de Banfora - Tous droits réservés</p>
+        <p>powered by Adouabou&Some</p>
+    </footer>
+    </body>
+</html>
