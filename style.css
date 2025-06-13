@@ -27,6 +27,12 @@ nav {
     background-color: #646565;
     padding: 10px 0;
 }
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+}
 .nav-links {
     list-style-type: none;
     display: flex;
