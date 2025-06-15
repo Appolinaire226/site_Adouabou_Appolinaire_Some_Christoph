@@ -95,9 +95,10 @@ nav {
     border-radius: 10px;
 }
 .formulaire {
+    color: black;
     max-width:500px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
