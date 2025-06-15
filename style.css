@@ -2,8 +2,11 @@ body {
     font-family: Arial, sans-serif;
     font-size: 19px;
     padding: 20px;
-    background-color: rgb(102, 136, 147);
+    background-image:url("Cascadesban.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
 }
 .patrimoine-container {
