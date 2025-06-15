@@ -47,6 +47,7 @@ nav {
     background-color: #646565;
     padding: 10px 0;
     display: block;
+    text-decoration: none;
     text-align: center;
 }
 @media (max-width: 768px) {
